@@ -34,9 +34,9 @@ function App() {
     return (
         <Router>
             <AppBar position="static">
-                <Toolbar>
-                    <Typography variant="h6" sx={{ flexGrow: 1 }}>URL Shortener</Typography>
-                    <Button color="inherit" component={Link} to="/">Shorten URLs</Button>
+                <Toolbar sx={{backgroundColor:"black"}}>
+                    <Typography variant="h6" sx={{ flexGrow: 1}}>URL Shortener</Typography>
+                    <Button color="inherit" sx={{padding: 2, borderBlockColor:"white"}} component={Link} to="/">Shorten URLs</Button>
                     <Button color="inherit" component={Link} to="/stats">Stats</Button>
                 </Toolbar>
             </AppBar>

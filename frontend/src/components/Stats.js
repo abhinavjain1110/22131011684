@@ -79,7 +79,7 @@ const Stats = () => {
                 onChange={(e) => setShortcode(e.target.value)}
                 fullWidth
             />
-            <Button variant="contained" onClick={handleFetch}>Fetch Stats</Button>
+            <Button variant="contained" sx={{marginTop: 2, backgroundColor:"black"}} onClick={handleFetch}>Fetch Stats</Button>
 
             {data && (
                 <div>
